@@ -10,6 +10,7 @@ FreeStreamerEx是从FreeStreamer这个开源的音频播放类库修改扩展而
 如何使用新增的修改扩展功能播放需要解密mp3音频数据：
 只需要创建指定的block，将其赋值给FSAudioController类的audioDataDecrypt属性，在audioDataDecrypt这个block的内部做解密处理即可，注意：解密处理的是本地mp3音频文件。
 
+
 关于FreeStreamer这个开源的音频播放类库更多的说明，请查看下面原项目的说明：
 
 FreeStreamer
