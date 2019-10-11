@@ -1,3 +1,17 @@
+FreeStreamerEx是从FreeStreamer这个开源的音频播放类库修改扩展而来，主要做了以下修改扩展：
+1.提供直接播放NSData类型音频数据的支持；
+2.提供播放需要解密mp3音频数据的支持；
+
+如何使用新增的修改扩展功能播放NSData类型音频数据：
+1.通过调用FSAudioController类的initWithData:初始化方法进行初始化，然后直接调用该类的play方法即可；
+2.直接调用该类的playFromData方法;
+3.直接调用该类的playFromPlaylist方法,前提是给传递的FSPlaylistItem之中的data属性赋值即可;
+
+如何使用新增的修改扩展功能播放需要解密mp3音频数据：
+只需要创建指定的block，将其赋值给FSAudioController类的audioDataDecrypt属性，在audioDataDecrypt这个block的内部做解密处理即可，注意：解密处理的是本地mp3音频文件。
+
+关于FreeStreamer这个开源的音频播放类库更多的说明，请查看下面原项目的说明：
+
 FreeStreamer
 ====================
 
