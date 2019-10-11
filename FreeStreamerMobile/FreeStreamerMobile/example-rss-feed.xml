@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Playlist Feed</title>
+    <item>
+       <title>soma.fm GrooveSalad AAC 64</title>
+       <link>http://somafm.com/groovesalad64.pls</link>
+    </item>
+    <item>
+       <title>BassDrive AAC</title>
+       <link>http://bassdrive.com/bassdrive3.m3u</link>
+    </item>
+    <item>
+       <title>BassDrive 128</title>
+       <link>http://bassdrive.com/bassdrive.m3u</link>
+    </item>
+    <item>
+    	<title>Radio Swiss Classic</title>
+    	<link>https://mv-cdn1.ylyk.com/course/audio-402-1481534785-64k44100.mp3</link>
+    </item>
+    <item>
+    	<title>Radio Swiss Jazz</title>
+    	<link>http://www.radioswissjazz.ch/live/mp3.m3u</link>
+    </item>
+    <item>
+        <title>Local MP3 file</title>
+        <link>file://test.mp3</link>
+    </item>
+    <item>
+        <title>Local 2 seconds MP3 file</title>
+        <link>file://test-2sec.mp3</link>
+    </item>
+    <item>
+        <title>Isaac Asimov Foundations Series BBC</title>
+        <link>https://archive.org/download/IsaacAsimovFoundation6Of864kb/IsaacAsimov-Foundation1Of8_64kb.mp3</link>
+    </item>
+  </channel>
+</rss>
